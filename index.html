@@ -18,7 +18,8 @@
     <section class="header">
       <nav>
         <a href="index.html"><img src="eduford_img/logo.png" alt="" /></a>
-        <div class="nav_links">
+        <div class="nav_links" id="nav_links_id">
+          <i class="fa-regular fa-rectangle-xmark" onclick="hideMenu()"></i>
           <ul>
             <li><a href="">Home</a></li>
             <li><a href="">About</a></li>
@@ -27,12 +28,22 @@
             <li><a href="">Contact</a></li>
           </ul>
         </div>
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
       </nav>
       <div class="text_box">
         <h1>World's Biggest University</h1>
-        <p>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit.</p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur <br />
+          adipisicing elit.
+        </p>
         <a href="" class="hero_btn">Visit Us To Know More</a>
       </div>
     </section>
+    <script src="app/app.js"></script>
+    <!-- font awesome link  -->
+    <script
+      src="https://kit.fontawesome.com/0c1139f033.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
