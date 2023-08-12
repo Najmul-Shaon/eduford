@@ -96,7 +96,25 @@ nav .fa-solid {
   transition: 1s;
 }
 
-/* media quesry  */
+/* course start  */
+.course {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.course h1 {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.course p {
+  color: #fff;
+}
+/* course end  */
+
+/* media query start */
 @media (max-width: 700px) {
   .text_box h1 {
     font-size: 28px;
@@ -127,3 +145,4 @@ nav .fa-solid {
     padding: 30px;
   }
 }
+/* media query End */
