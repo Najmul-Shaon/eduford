@@ -110,7 +110,36 @@ nav .fa-solid {
 }
 
 .course p {
-  color: #fff;
+  color: #777;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+  padding: 10px;
+}
+
+.row {
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.course_col {
+  flex-basis: 31%;
+  background: #fff3f3;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  padding: 20px 12px;
+  box-sizing: border-box;
+}
+
+.course_col h3 {
+  text-align: center;
+  font-weight: 600;
+  margin: 10px 0;
+}
+
+.course_col:hover{
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2 );
 }
 /* course end  */
 
@@ -144,5 +173,12 @@ nav .fa-solid {
   .nav_links ul {
     padding: 30px;
   }
+  /* course start  */
+.row{
+  flex-direction: column;
 }
+/* course end  */
+}
+
+
 /* media query End */
