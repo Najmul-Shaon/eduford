@@ -228,6 +228,47 @@ nav .fa-solid {
 }
 /* facilities end  */
 
+/* testimonials start  */
+.testimonials {
+  width: 80%;
+  margin: auto;
+  padding-top: 100px;
+  text-align: center;
+}
+
+.testimonials_col {
+  flex-basis: 44%;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  text-align: left;
+  background: #fff3f3;
+  padding: 25px;
+  cursor: pointer;
+  display: flex;
+}
+
+.testimonials_col img {
+  height: 40px;
+  margin-left: 5px;
+  margin-right: 30px;
+  border-radius: 50%;
+}
+
+.testimonials_col p {
+  padding: 0;
+}
+
+.testimonials_col h3 {
+  margin-top: 15px;
+  text-align: left;
+}
+
+.testimonials_col .fa-solid,
+.fa-regular {
+  color: #f44336;
+}
+/* testimonials end  */
+
 /* media query start */
 @media (max-width: 700px) {
   .text_box h1 {
@@ -264,6 +305,13 @@ nav .fa-solid {
     flex-direction: column;
   }
   /* course end  */
+
+  /* media testimonial start  */
+  .testimonials_col img {
+    margin-left: 0;
+    margin-right: 15px;
+  }
+  /* media testimonial end  */
 }
 
 /* media query End */
