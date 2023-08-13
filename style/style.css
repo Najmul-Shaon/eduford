@@ -288,7 +288,26 @@ nav .fa-solid {
   padding: 0;
 }
 /* call to action end  */
+/* footer start  */
+.footer {
+  width: 100%;
+  text-align: center;
+  padding: 30px 0;
+}
 
+.footer h4 {
+  margin-bottom: 25px;
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+.icons .fa-brands {
+  color: #f44336;
+  margin: 0 13px;
+  cursor: pointer;
+  padding: 18px 0;
+}
+/* footer end  */
 /* media query start */
 @media (max-width: 700px) {
   .text_box h1 {
@@ -334,8 +353,8 @@ nav .fa-solid {
   /* media testimonial end  */
 
   /*media- call to action start */
-  .cta h1{
-font-size: 24px;
+  .cta h1 {
+    font-size: 24px;
   }
   /* media- call to action end */
 }
