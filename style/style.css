@@ -178,7 +178,7 @@ nav .fa-solid {
   background: rgba(226, 0, 0, 0.7);
 }
 
-.lyer h3{
+.lyer h3 {
   width: 100%;
   font-weight: 500;
   color: #fff;
@@ -191,11 +191,42 @@ nav .fa-solid {
   transition: 0.5s;
 }
 
-.lyer:hover h3{
+.lyer:hover h3 {
   bottom: 49%;
   opacity: 1;
 }
 /* campus end  */
+
+/* facilities start  */
+.facilities {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.facilities_col {
+  flex-basis: 31%;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  text-align: left;
+}
+
+.facilities_col img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.facilities_col p {
+  padding: 0;
+}
+
+.facilities_col h3 {
+  margin-top: 16px;
+  margin-bottom: 15px;
+  text-align: left;
+}
+/* facilities end  */
 
 /* media query start */
 @media (max-width: 700px) {
