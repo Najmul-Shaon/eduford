@@ -359,6 +359,11 @@ nav .fa-solid {
   /* media- call to action end */
 }
 
+/* media query added on sub header on blog.html page  */
+.sub_header h1 {
+  font-size: 24px;
+}
+
 /* media query End */
 
 /* about us || this is another html page  */
@@ -410,4 +415,76 @@ about-col p {
 
 .red-btn:hover {
   color: #fff;
+}
+
+/* blog content page for blog.html  */
+.blog_container {
+  width: 80%;
+  margin: auto;
+  padding: 60px 0;
+}
+
+.blog_left {
+  flex-basis: 65%;
+}
+
+.blog_left img {
+  width: 100%;
+}
+
+.blog_left h2 {
+  color: #222;
+  font-weight: 600;
+  margin: 30px 0;
+}
+
+.blog_left p {
+  color: #999;
+  padding: 0;
+}
+
+.blog_right {
+  flex-basis: 32%;
+}
+
+.blog_right h3 {
+  background: #f44336;
+  color: #fff;
+  padding: 7px 0;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.blog_right div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #555;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.comment_box {
+  border: 1px solid #ccc;
+  margin: 50px 0;
+  padding: 10px 20px;
+}
+
+.comment_box h3 {
+  text-align: left;
+}
+
+.comment_form input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 15px 0;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  background: #f0f0f0;
+}
+
+.comment_form button {
+  margin: 10px 0;
 }
